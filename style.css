@@ -422,6 +422,12 @@ footer h1 {
   }
 }
 
+.reverse {
+  @media screen and (min-width: 768px) {
+    flex-direction: row-reverse;
+  }
+}
+
 :focus {
   outline: 2px solid #ff0000;
   outline-offset: 4px;
