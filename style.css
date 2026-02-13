@@ -22,6 +22,10 @@ button:hover {
   background-color: #1F2E4E;
 }
 
+button:focus {
+  background-color: #111827;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -426,4 +430,10 @@ footer h1 {
   @media screen and (min-width: 768px) {
     flex-direction: row-reverse;
   }
+}
+
+/* Add focus when tab */
+:focus-visible {
+  outline: 2px solid #ff0000;
+  outline-offset: 4px;
 }
